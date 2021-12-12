@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  background-color: #EEEEEE;
+  position: relative;
+}
+
+.BloqueHorizontal {
+  background-color: #0F4C75;
+  height: 200px;
+  width: 100%;
+  margin: 5% 0;
+  z-index: 2;
+  position:fixed ;
+}
+
+.FotoMati {
+  border-radius: 50%;
+  height: 120%;
+  width: 15%;
+  position: absolute;
+  top: -5%;
+  left: 5%;
+  z-index: 4;
+}
+
+.Nombre {
+  font-family:  "Merriweather", serif;
+  z-index: 3;
+  }
+
+.TextoPresentacion {
+  color:white;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  font-family:  "Outfit", Sanserif;
+  z-index: 3;
+}
+
+.ContactInfo{
+  color:white;
+  position: absolute;
+  top: 17%;
+  left: 70%;
+  font-family:  "Outfit", Sanserif;
+  z-index: 3;
+}
+
+.FijoHorizontal{
+  background-color: #EEEEEE;
+  height: 220px;
+  width: 100%;
+  margin: 0;
+  z-index: 1;
+  position: fixed;
+}
+
+.FijoVertical{
+  background-color: #0F4C75;
+  position: fixed;
+  top: 0;
+  left: 2%;
+  height: 320px;
+  width: 22%;
+  margin: 0;
+  z-index: 2;
+}
+
+.BloqueVertical{
+  background-color: #0F4C75;
+  position: absolute;
+  top: 0;
+  left: 2%;
+  width: 22%;
+  height: 1400px;
+  margin: 0;
+  z-index: 1;
+}
+
+
+h3{
+  color:white;
+  font-family: "Merriweather", serif;
+}
+
+.TextoVertical{
+  color:white;
+  position: absolute;
+  top: 23%;
+  left: 5%;
+  right:5%;
+  font-family:  "Outfit", Sanserif;
+  z-index: 1;
+}
+
+.ProfessionalExp{
+  color:white;
+  position: absolute;
+  top: 320px;
+  left: 30%;
+  right:5%;
+  z-index: 0;
+}
+
+
+.Headers{
+  color:#0F4C75;
+  font-family:  "Merriweather", serif;
+}
+
+.Position{
+color: black;
+font-family:  "Merriweather", serif;
+}
+
+.Company{
+color: Grey;
+font-family:  "Outfit", Sanserif;
+}
+
+.JobDesc{
+color: Grey;
+font-family:  "Outfit", Sanserif;
+}
